@@ -16,7 +16,7 @@ namespace _00._Work._03._Scripts.Combat.Cost
         private float _timer;
         
         [Header("UI")]
-        public List<Slider> costSlider;
+        public List<Image> costImgs;
         public TextMeshProUGUI costText;
 
         private void Start()
@@ -24,9 +24,9 @@ namespace _00._Work._03._Scripts.Combat.Cost
             _currentCost = 0;
             _timer = 0;
 
-            foreach (var slot in costSlider)
+            foreach (var slot in costImgs)
             {
-                slot.value = 0;
+                slot.fillAmount = 0;
             }
             
             UpdateUI();
@@ -40,15 +40,15 @@ namespace _00._Work._03._Scripts.Combat.Cost
             float progress = _timer / increaseInterval;
 
             // 현재 충전 중인 칸은 _currentCost 기준
-            costSlider[_currentCost].value = Mathf.Clamp01(progress);
+            costImgs[_currentCost].fillAmount = Mathf.Clamp01(progress);
 
             if (_timer >= increaseInterval)
             {
                 _timer = 0f;
 
                 // 충전 완료된 칸에 애니메이션
-                costSlider[_currentCost].value = 1f;
-                PlayingSliderAnim(costSlider[_currentCost].transform);
+                costImgs[_currentCost].fillAmount = 1f;
+                PlayingSliderAnim(costImgs[_currentCost].transform);
 
                 // 코스트 수치 증가
                 AddCost(1);
@@ -64,7 +64,7 @@ namespace _00._Work._03._Scripts.Combat.Cost
             for (int i = 0; i < amount; i++)
             {
                 _currentCost--;
-                costSlider[_currentCost -1].value = 0f;
+                costImgs[_currentCost -1].fillAmount = 0f;
             }
 
             _timer = 0f;

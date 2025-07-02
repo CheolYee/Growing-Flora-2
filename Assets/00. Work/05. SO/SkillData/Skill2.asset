@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8896b3d06d0acd45bd10ef242ad31d2, type: 3}
+  m_Name: Skill2
+  m_EditorClassIdentifier: 
+  skillID: 2
+  skillName: "\uC5D0\uB108\uC9C0 \uBC29\uCD9C"
+  description: "\uC9C1\uC120 \uBC94\uC704 \uB0B4\uC758 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C
+    100\uC758 \uD53C\uD574\uB97C \uC785\uD788\uB294 \uC5D0\uB108\uC9C0\uB97C \uBC29\uCD9C\uD569\uB2C8\uB2E4."
+  cost: 7
+  cooldown: 20
+  castTime: 1
+  preDelay: 0.7
+  postDelay: 0.1
+  skillType: 2
+  rangeType: 1
+  rangeRadius: 100
+  rangeAngle: 0
+  skillEffectPrefab: {fileID: 0}
+  skillSfx: {fileID: 0}
+  skillIcon: {fileID: 755945513, guid: dbb40c4edf938194f8b94ef46bcb4f46, type: 3}
