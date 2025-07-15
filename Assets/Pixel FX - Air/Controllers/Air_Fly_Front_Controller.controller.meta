@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58d6c36f6162e694999421b7a74d1ae3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221162
+  packageName: Pixel FX - Air
+  packageVersion: 1.0
+  assetPath: Assets/Pixel FX - Air/Controllers/Air_Fly_Front_Controller.controller
+  uploadId: 544639

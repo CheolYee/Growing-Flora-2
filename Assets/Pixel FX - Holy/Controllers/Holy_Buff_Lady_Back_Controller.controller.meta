@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ea6896c13853ee408c967878acba258
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221161
+  packageName: Pixel FX - Holy
+  packageVersion: 1.0
+  assetPath: Assets/Pixel FX - Holy/Controllers/Holy_Buff_Lady_Back_Controller.controller
+  uploadId: 544655

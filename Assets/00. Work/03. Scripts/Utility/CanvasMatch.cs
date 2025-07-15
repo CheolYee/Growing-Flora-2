@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace _00._Work._02._Scripts.CanvasSetting
+namespace _00._Work._03._Scripts.Utility
 {
     public class CanvasMatch : MonoBehaviour
     {

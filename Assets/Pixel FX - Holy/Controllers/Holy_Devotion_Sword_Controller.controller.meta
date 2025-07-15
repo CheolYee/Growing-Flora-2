@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 514a572399d41654aa386fdb3203e889
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221161
+  packageName: Pixel FX - Holy
+  packageVersion: 1.0
+  assetPath: Assets/Pixel FX - Holy/Controllers/Holy_Devotion_Sword_Controller.controller
+  uploadId: 544655

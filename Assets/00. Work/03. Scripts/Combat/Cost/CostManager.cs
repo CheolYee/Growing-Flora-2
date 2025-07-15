@@ -1,12 +1,14 @@
 using System.Collections.Generic;
+using _00._Work._02._Scripts.Manager;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace _00._Work._03._Scripts.Combat.Cost
 {
-    public class CostManager : MonoBehaviour
+    public class CostManager : MonoSingleton<CostManager>
     {
         [Header("Cost Settings")] 
         public int maxCost = 10;
@@ -29,7 +31,6 @@ namespace _00._Work._03._Scripts.Combat.Cost
                 slot.fillAmount = 0;
             }
             
-            UpdateUI();
         }
 
         private void Update()
@@ -54,21 +55,34 @@ namespace _00._Work._03._Scripts.Combat.Cost
                 AddCost(1);
                 UpdateUI();
             }
+
+            if (Keyboard.current.spaceKey.wasPressedThisFrame)
+            {
+                AddCost(10);
+            }
         }
 
-        public bool UseCost(int amount)
+        public void UseCost(int amount)
         {
-            if (_currentCost < amount) return false;
+            if (_currentCost < amount) return;
 
+            _currentCost -= amount;
+            
             // 차감
-            for (int i = 0; i < amount; i++)
+            for (int i = 0; i < costImgs.Count; i++)
             {
-                _currentCost--;
-                costImgs[_currentCost -1].fillAmount = 0f;
+                if (i < _currentCost)
+                {
+                    costImgs[i].fillAmount = 1f; // 이미 찬 슬롯
+                }
+                else
+                {
+                    costImgs[i].fillAmount = 0f; // 남은 슬롯은 초기화
+                }
             }
 
-            _timer = 0f;
-            return true;
+            costText.text = _currentCost.ToString();
+            PlayCostTextPopAnim();
         }
 
         private void AddCost(int amount)
@@ -89,12 +103,28 @@ namespace _00._Work._03._Scripts.Combat.Cost
                     target.DOScale(1f, 0.1f).SetEase(Ease.InQuad);
                 });
         }
+        
+        private void PlayCostTextPopAnim()
+        {
+            Transform textTransform = costText.transform;
+
+            textTransform.DOKill(); // 기존 애니메이션 초기화
+            textTransform.localScale = Vector3.one; // 스케일 초기화
+
+            textTransform.DOScale(1.2f, 0.1f)
+                .SetEase(Ease.OutBack)
+                .OnComplete(() =>
+                {
+                    textTransform.DOScale(1f, 0.1f).SetEase(Ease.InQuad);
+                });
+        }
 
         private void UpdateUI()
         {
             if (costText is not null)
             {
                 costText.text = int.Parse(_currentCost.ToString()).ToString();
+                PlayCostTextPopAnim();
             }
         }
         

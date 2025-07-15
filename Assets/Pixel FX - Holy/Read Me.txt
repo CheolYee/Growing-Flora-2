@@ -1,0 +1,129 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LICENSE
+
+- You can use this asset in any game project, personal or commercial
+- DO NOT resell or redistribute AS A GAME ASSET, it has to be part of a project
+- Modify to suit your needs
+- You are NOT allowed to turn any of my assets to an NFT.
+- Credit not necessary but appreciated, if you do you can link to my ITCH profile
+ITCH.IO LINK: https://admurin.itch.io/
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FX DETAILS
+
+Buff
+
+- Animations: 2
+- Frames: 24
+- Loop: No
+- Details
+	- This buff will imbue your armor with nature attribute which may render you immune to earth, nature skills. Up to you.
+	
+	- An ancestral figure has been summoned and has cast a buff on you.
+	- Maybe you get invincibility for a set amount of seconds? Maybe extra damage?
+	- You can always choose to give you defense against holy or dark attacks or maybe even heal you. Your call.
+	- Remember to put the lady behind the player and the cross in front of the player!
+
+
+Holy I
+
+- Animations: 1
+- Frames: 10
+- Loop: Yes
+- Details
+	- A small orb of light that attacks all foes within your proximity.
+	- The bad thing about this skill is that it does not move which can deal less damage if the enemies move away from the orbs.
+	
+
+Holy II
+
+- Animations: 1
+- Frames: 14
+- Loop: Yes
+- Details:
+	- An arrow that deals damage to every enemy in its path.
+	- There is a little delay to cast it but its a pretty good attack specially against the undead.
+	- When the arrow reaches its final destination it will explode and deal more damage.
+
+
+Holy III
+
+- Animations: 1
+- Frames: 12
+- Loop: Yes
+- Details: 
+	- Pierce your enemies with a ray of light that can be held until you run out of mana.
+	- You can also use the loop to make the ray active as long as you are holding the skill button.
+
+
+Faith
+
+- Animations: 1
+- Frames: 8
+- Loop: No 
+- Details: 
+	- Stay pure with this skill.
+	- It can be used to remove all debuffs that have been placed on you or your party.
+
+
+Devotion
+
+- Animations: 3
+- Frames: 20
+- Loop: No
+- Details: 
+	- The sky has opened and you are getting a first look at the all mighty one. 
+			1. The tiny swords will fall first (they can deal damage to foes if desired).
+			2. The first rays will land where the swords landed.
+			3. A sword will fall on an enemy (maybe when you stop pressing the skill button).
+			4. As soon as it lands all the crosses that are on the floor will activate again.
+
+
+Resurrection
+
+- Animations: 1
+- Frames: 21
+- Loop: No
+- Details: 
+	- You are immortal in a way thanks to your never-ending display of faith.
+	- To make things a bit nicer, the ray itself will deal damage to any enemies that touch it.
+
+
+Angel
+
+- Animations: 9
+- Frames: 67
+- Loop: Yes
+- Details:
+	- Your call to your guardian angel has been reached.
+	- He will fight for you for a certain amount of seconds or until he is defeated.
+	- He has 2 attacks:
+			1. Rushes the enemies on the ground
+			2. For long range when he is flying. 
+	- There are a couple of loops and you can even use the angel as an enemy!
+	- Alternatively, you can use this skill by replacing your character and playing with the Angel as if it was an upgrade
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+MAKE SURE YOU READ THE DETAILS THERE ARE A FEW IDEAS ON HOW TO USE THE SKILLS.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you have any other questions you can check my discord where I will answer and help you use my assets. 
+DISCORD LINK: https://discord.com/invite/jmf4pzv5Fj
+
+If you want to support me you can check out my Patreon. This allows me to focus on making more assets and releasing them for free assets!
+PATREON LINK: https://www.patreon.com/admurin
+
+
+Don't forget to leave a review and check my other assets!
+
+Thank you.
+Admurin

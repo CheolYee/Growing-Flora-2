@@ -14,18 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillID: 1
   skillName: "\uBC14\uB78C \uD3ED\uD48D"
-  description: "\uC6D0\uD615 \uBC94\uC704 \uB0B4\uC5D0 \uBC14\uB78C \uD68C\uC624\uB9AC\uB97C
+  description: "\uC0AC\uAC01 \uBC94\uC704 \uB0B4\uC5D0 \uBC14\uB78C \uD68C\uC624\uB9AC\uB97C
     \uC77C\uC73C\uCF1C \uBC94\uC704 \uB0B4\uC758 \uC801\uC5D0\uAC8C 10\uC758 \uD53C\uD574\uB97C
     \uCD1D 3\uBC88 \uAC00\uD569\uB2C8\uB2E4."
   cost: 5
   cooldown: 15
-  castTime: 1
-  preDelay: 0.5
-  postDelay: 0.1
+  damage: 20
+  castTime: 0.2
+  preDelay: 1
+  activeDuration: 1.5
+  postDelay: 0.5
+  castAnimName: Start
+  idleAnimName: Idle
+  fallAnimName: Fall
+  activeAnimName: Run
+  endAnimName: End
   skillType: 2
   rangeType: 2
-  rangeRadius: 20
-  rangeAngle: 0
-  skillEffectPrefab: {fileID: 0}
+  lengthRadius: 0.2
+  widthRange: 5
+  useDropEffect: 0
+  dropDuration: 0.8
+  dropStartOffset: {x: 0, y: 5, z: 0}
+  skillEffectPrefab: {fileID: 2033128645917671572, guid: cbb5318be3f45ea44898b4574346d37f, type: 3}
   skillSfx: {fileID: 0}
   skillIcon: {fileID: 665855240, guid: 3b8adfa8bce6a1d43926fd51a4eb076c, type: 3}

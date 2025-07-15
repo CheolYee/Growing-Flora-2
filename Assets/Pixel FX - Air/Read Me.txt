@@ -1,0 +1,143 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LICENSE
+
+- You can use this asset in any game project, personal or commercial
+- DO NOT resell or redistribute AS A GAME ASSET, it has to be part of a project
+- Modify to suit your needs
+- You are NOT allowed to turn any of my assets to an NFT.
+- Credit not necessary but appreciated, if you do you can link to my ITCH profile
+ITCH.IO LINK: https://admurin.itch.io/
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FX DETAILS
+
+Buff
+
+- Animations: 2
+- Frames: 24
+- Loop: No
+- Details
+	- This buff will imbue your armor with nature attribute which may render you immune to earth, nature skills. Up to you.
+	
+	- An ancestral figure has been summoned and has cast a buff on you.
+	- Maybe you get invincibility for a set amount of seconds? Maybe extra damage?
+	- You can always choose to give you defense against holy or dark attacks or maybe even heal you. Your call.
+	- Remember to put the lady behind the player and the cross in front of the player!
+
+
+Air I
+
+- Animations: 1
+- Frames: 12
+- Loop: Yes
+- Details
+	- The most basic air attack that you can conjure. This one only hits the closest enemy though!
+	
+
+Air II
+
+- Animations: 1
+- Frames: 14
+- Loop: Yes
+- Details:
+	- Use this skill if you want to hit multiple enemies at once.
+	- This skill is semi slow but when it reaches the enemies but once it does great damage.
+
+
+Air III
+
+- Animations: 2
+- Frames: 39
+- Loop: Yes
+- Details: 
+	- Make this skill in a way that it hits all the enemies in a certain range.
+	- The best thing about this skill is that it hits the enemy multiple times.
+	- There is a single animation and also a looped animation if you want the skill to stay in a spot for a long time.
+	- If the enemies walk to the skill then they will get damaged.
+
+
+Daze
+
+- Animations: 1
+- Frames: 11
+- Loop: Yes
+- Details: 
+	- This skill is meant to only hit one enemy (the end of the animation).
+	- If the enemy survives it can cause the enemy to be stunned.
+	- If anything you can make it damage all the enemies in its way and deals more damage to the last enemy.
+
+
+Breath
+
+- Animations: 1
+- Frames: 21
+- Loop: No
+- Details: 
+	- This skill to defeat one enemy.
+	- You can each orb deal damage everytime it touches an enemy.
+	- Maybe, it can be used as a high damage per second attack.
+	- Best used for bosses in my opinion.
+
+
+Tornado
+
+- Animations: 1
+- Frames: 17
+- Loop: Yes
+- Details: 
+	- This one has a idle animation for when it stays in one position and also a looped animation for when it moves.
+	- You can make it hit all the enemies in its way
+	- You can make it return by flipping the animation dealing double damage.
+
+
+Fly
+
+- Animations: 7
+- Frames: 43
+- Loop: Yes
+- Details:
+	- This animation has 2 layers. 
+	- There are wings that go in the front of the character and wings that go behind the character.
+	- The animations included are:
+			1. Start
+			2. Spread Wings
+			3. Shield
+			4. Take Off
+			5. Fly Loop
+			6. Landing
+			7. End
+	- Spread Wings and Shield are optional
+	- If you want to use shield the wings will go in front of the character
+	- Every other animation will have the wings behind the character.
+	- The best way I can think of on using this is by putting the character between the wings
+			1. When you use the skill the wings will grow (Start)
+			2. The character will be ready for lift off (Take Off) which will proceed to the flying loop animation.
+			3. Here you can make your character ignore gravity and make it move up/down/side to side with ease.
+	- Lastly, when skill duration (if you have one) reaches its limit the character you have to switch 
+			1. To the Landing scene until it touches the floor 
+			2. Then switch to the final animation (End) where the wings disappear. 
+	
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+MAKE SURE YOU READ THE DETAILS THERE ARE A FEW IDEAS ON HOW TO USE THE SKILLS.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you have any other questions you can check my discord where I will answer and help you use my assets. 
+DISCORD LINK: https://discord.com/invite/jmf4pzv5Fj
+
+If you want to support me you can check out my Patreon. This allows me to focus on making more assets and releasing them for free assets!
+PATREON LINK: https://www.patreon.com/admurin
+
+
+Don't forget to leave a review and check my other assets!
+
+Thank you.
+Admurin

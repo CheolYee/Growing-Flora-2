@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b729e7afa6d423e4d92c30ac3befbde2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221162
+  packageName: Pixel FX - Air
+  packageVersion: 1.0
+  assetPath: Assets/Pixel FX - Air/Controllers/Air_I_Controller.controller
+  uploadId: 544639

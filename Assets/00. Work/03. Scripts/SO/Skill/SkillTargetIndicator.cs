@@ -4,40 +4,43 @@ namespace _00._Work._03._Scripts.SO.Skill
 {
     public class SkillTargetIndicator : MonoBehaviour
     {
-        public GameObject circleVisual;
+        public GameObject boxVisual;
         public GameObject lineVisual;
-        public GameObject coneVisual;
+        public GameObject targetVisual;
 
-        public void SetType(SkillRangeType skillType, float size)
+        public void SetType(SkillRangeType skillType, float length, float width)
         {
-            circleVisual.SetActive(false);
+            boxVisual.SetActive(false);
             lineVisual.SetActive(false);
-            coneVisual.SetActive(false);
+            targetVisual.SetActive(false);
 
             switch (skillType)
             {
                 case SkillRangeType.None:
                     break;
-                case SkillRangeType.CircleArea:
-                    circleVisual.SetActive(true);
-                    circleVisual.transform.localScale = Vector3.one * size;
+
+                case SkillRangeType.TargetSingle:
+                    targetVisual?.SetActive(true);
+                    if (targetVisual != null) targetVisual.transform.localScale = Vector3.one * 1f; // 크기 고정 또는 커스터마이즈
                     break;
+
                 case SkillRangeType.ForwardLine:
                     lineVisual.SetActive(true);
-                    lineVisual.transform.localScale = new Vector3(size, 1f, 1f);
+                    lineVisual.transform.localScale = new Vector3(width, length, 1f);
                     break;
-                case SkillRangeType.ConeArea:
-                    coneVisual.SetActive(true);
-                    coneVisual.transform.localScale = Vector3.one * size;
+
+                case SkillRangeType.BoxArea:
+                    boxVisual?.SetActive(true);
+                    if (boxVisual != null) boxVisual.transform.localScale = new Vector3(width, length, 1f);
                     break;
             }
         }
 
         public void EndCasting()
         {
-            circleVisual.SetActive(false);
+            boxVisual.SetActive(false);
             lineVisual.SetActive(false);
-            coneVisual.SetActive(false);
+            targetVisual.SetActive(false);
         }
     }
 }

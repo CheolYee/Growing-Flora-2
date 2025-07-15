@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c1d6dfa739995944a90dbed864224ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221161
+  packageName: Pixel FX - Holy
+  packageVersion: 1.0
+  assetPath: Assets/Pixel FX - Holy/Controllers/Holy_Buff_Cross_Front_Controller.controller
+  uploadId: 544655
